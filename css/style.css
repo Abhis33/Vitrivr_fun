@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(to right bottom ,#45415E 0% , #5B7D87 100%) no-repeat center center fixed;
+}
+
+.neon{
+    color: #fff;
+   font-family: 'JelleeRoman';
+   font-weight: normal;
+   font-style: normal;
+    font-size: 70px;
+    padding:0 20px;
+    letter-spacing: 1.25px;
+    text-shadow: 0 0 20px #91B3BC;
+}
+
+.neon:after{
+position: absolute;
+content: attr(data-text);
+top: 0;
+left: 0;
+padding:0 37px;
+z-index:-1;
+color: #91B3BC;
+filter: blur(15px);
+}
+
+.neon:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width:100%;
+height:80%;
+background:#91B3BC;
+z-index: -2;
+opacity:.5;
+filter: blur(40px);
+}
+
+
+p{
+    color: white; 
+   font-family: 'Arial'; 
+   font-weight: normal;
+   font-style: normal; 
+    font-size: 21px;
+    letter-spacing: 1.25px;
+}
+
+label {
+    color: #8EB9CE;
+    letter-spacing: 1.75px;
+    font-size: 13px;
+}
+
+hr {
+border-color: #91B3BC
+}
+
+input, select, textarea{
+    color: #597A84;
+    font-size: 16px;
+    border:1px solid ;
+    border-color: red;
+}
+
+#insta {
+    background: #F6F9FA;
+}
+
+#linka {
+    background: #F6F9FA;
+}
+
+#btn_cancel {
+    border-color: #B4D1DE;
+    border: 2px;
+    color: #438BAD;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    width: 120px;
+}
+
+#btn_save {
+    border: 2px;
+    color: #fff;
+    background-color: #E4B030;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-block;
+    width: 120px;
+}
+
+#page-header{
+background: white;
+}
+
+.popover-content {
+    color: #597A84;
+    font-size: 14px;
+}
+
+.header-container {
+
+}
+
+video {
+position: absolute
+width: 100%;
+    height: auto;
+}
